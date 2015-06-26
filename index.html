@@ -1,0 +1,89 @@
+<!--This tells the browser that the document below is html-->
+
+<!DOCTYPE html>
+
+<!--this sets the language as english-->
+
+<html lang="en">
+
+<!--This starts the "header" tag where we tell the complier about some characteristics the header should have-->
+
+<head>
+
+	<!--Here we tell it what the character set is UTF8, this is the default | next what the title is, this shows up on the top of the browser | next where to look for the css file, it has to be in the same folder? | next to look for a certain font from the -->
+
+	<meta charset="UTF-8">
+	<title>John Gillis</title>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,300,900" rel="stylesheet" type="text/css">
+   <!--  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<!--This is where we tell it (the compiler?) some qualities of the body and potentially some actual content-->
+
+<body>
+	
+	<!--This is a piece of the body called nav... we're telling it that nav is in a class called "top-navigation" that we'll talk about in the css file | then we make a divider and tell it that it's the class "content" again, we'll tell the css more about what characteristics "content" should have | same with "links" then we style the first one "Meet Karma" as active meaning it will have different characteristics | li is a tag that stands for list or link? -->
+
+	<nav class="top-navigation">
+	        <div class="content">
+	        <h1 class="name">John Gillis</h1>
+	            <ul class="links">
+	                <li><a href="#work">Some Work</a></li>
+	                <li><a href="http://johnangusgillis.github.io/aboutme/">About Me</a></li>
+	                <li><a href="#contact">Contact</a></li>
+	            </ul>
+	        </div>
+	    </nav>
+
+		<!--This is an additional section-->
+
+	    <section class="introduction">
+	        <div class="content">
+	            <h1>Thanks for Visiting</h1>
+	            <h3>Check out my work and contact me</h3>
+	        </div>
+    	</section>
+
+		<!--This is the three more info sections-->
+
+    	<section class="cases">
+    		<div class="content">
+    		<h2 id="work">Here's some work</h2>
+    			<ul class="devices">
+	    			<li>
+	    				<h3>About Me Page</h3>
+	    			</li>
+	    			<li>
+						<h3>I copied Karma</h3>
+    				</li>
+    				<li>
+	    				<a href="http://www.nyt.com"><h3>New York Times</h3>
+	    				</a>
+    				</li>
+				</ul>
+			</div>
+    	</section>
+
+    	<footer class="social">
+    		<div class="content">
+    			<h4 id="contact">Friend me please</h4>
+	    		<ul class="icons">
+		            <li class="pied-piper">
+		                <i class="fa fa-pied-piper"></i>
+		            </li>
+		            <li class="facebook">
+		                <i class="fa fa-facebook" href="www.facebook.com"></i>
+		            </li>
+		            <li class="instagram">
+		                <i class="fa fa-instagram"></i>
+		            </li>
+	    		</ul>
+	    		<h5>&copy; Karma Mobility Inc.</h5>
+    		</div>
+		</footer>
+</body>
+</html>

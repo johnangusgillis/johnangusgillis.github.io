@@ -1,0 +1,238 @@
+/*This is where we reset the CSS for ALL of the Browsers*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */4
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*This is the end of the RESET*/
+
+/*This is where my main Style Starts*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+
+div {
+	border: 1px solid: chocolate;
+}
+
+p {
+	background-color: green;
+}
+
+/* Start of Custom Styles */
+
+.content {
+    padding: 0 15px;
+}
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: white;
+}
+
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.links li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.links a {
+	color: #838994;
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: orange;
+	cursor: pointer;
+}
+
+.top-navigation .links {
+	float: right;
+	margin-top: 20px;
+}
+
+.top-navigation .name {
+	float: left;
+	margin-top: 20px;
+	font-size: 3rem;
+	display: inline-block;
+	margin: 10px;
+	padding: 25px, 25px, 25px, 25px;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+/*This is the conent section*/
+
+.introduction {
+	background-image: url('../images/background_image.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: hidden;
+}
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+/*The Buttons*/
+
+.buttons {
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: 10rem;
+}
+.big-button {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 10rem;
+    background-color: #f15a29;
+    color: white;
+    font-size: 1.125rem
+
+}
+
+/*This is the styling for the three cases section*/
+
+.cases {
+	background-color: white;
+	height: 20em;
+	margin: 0 auto;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	color: black;
+}
+
+.cases .content {
+	text-align: center;
+}
+
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+.cases .devices img {
+	height: 5em;
+}
+
+.cases h3 {
+	  font-weight: 400;
+	  font-size: 1.563rem;
+	  margin: 2.5rem 0px 1.875rem;
+	  color: black;
+}
+
+h4 {
+	padding-top: 10px;
+	color: black;
+	font-size: 2rem;
+}
+
+.social {
+	width: 40em;
+	margin: 0 auto;
+	border-top: 1px solid lightgray;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .pied-piper {
+	color: #608c28;
+}
+
+.social .content {
+	text-align: center;
+}
+
+.social .content .icons li {
+	  border-radius: 1.25rem;
+	  width: 2.0rem;
+	  height: 0.8rem;
+	  display: inline-block;
+	  margin: 1.25rem 5px;
+	  border: 1px solid #eaebec;
+	  padding: 0.625rem 0;
+	  text-align: center;
+}
+
+
+
